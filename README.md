@@ -1,2 +1,2 @@
-# NewsFeed-Twitter-
-Newsfeed generation using tweets 
+# Twitter NewsFeed
+News feed generation using tweets 
