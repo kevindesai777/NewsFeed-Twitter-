@@ -34,7 +34,7 @@ def main():
                 name = account["name"]
                 file_name = account["file"]
 
-                params = {'name':name, 'exclude_replies':'true', 'count':'200'}
+                params = {'screen_name':name, 'exclude_replies':'true', 'count':'200'}
                 if id[name] > 0:
                     params['max_id'] = id[name]
                 news.fetch_tweets(params)
